@@ -1,5 +1,5 @@
   #Optimal MSE and blocklength combination
-  #for different distributions, change line 22 and titles
+  #for different distributions, change line 5, 22 and titles
   
   n = 5000 #sample size
   est = 0.3 #true value of theta
@@ -19,6 +19,7 @@
       theta1s <- rep(NA, q)
       theta2s <- rep(NA, q)
       for (d in 1:q){
+        #Distribution
         z = 0.7
         X0 <- rcauchy(1, location = 0, scale = 1)
         E <- rcauchy(n, location = 0, scale = (1-abs(z)))

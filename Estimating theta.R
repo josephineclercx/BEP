@@ -1,4 +1,5 @@
 #Estimating theta
+#Fill in lines 6,7,8,9,10 and distributions line 17-18
 
 n = 5000
 #Optimal block lengths

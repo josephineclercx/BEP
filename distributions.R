@@ -15,7 +15,7 @@ for (i in 1:5000){
   }
 }
 
-plot(X, main="Maximum values of U(0,1)-sequence", ylab='X', type='p')
+plot(X, main="Extreme values of a U(0,1) distribution", ylab='X', type='p')
 
 #N(0,1)
 Y <- rnorm(5000)
@@ -28,7 +28,7 @@ for (i in 1:5000){
   }
 }
 
-plot(Y,main="Maximum values of a N(0,1) sequence", ylab='X', type='p')
+plot(Y,main="Extreme values of a N(0,1) distribution", ylab='X', type='p')
 
 #exp(1)
 W <- rexp(5000)
@@ -41,7 +41,7 @@ for (i in 1:5000){
   }
 }
 
-plot(W,main="Maximum values of a Exp(1) sequence", ylab='X', type='p')
+plot(W,main="Extreme values of an Exp(1) distribution", ylab='X', type='p')
 
 #gamma(2,3)
 V <- rgamma(5000, shape=2, rate=3)
@@ -54,7 +54,7 @@ for (i in 1:5000){
   }
 }
 
-plot(V,main="Maximum values of a Gamma(2,3) sequence", ylab='X', type='p')
+plot(V,main="Extreme values of a Gamma(2,3) distribution", ylab='X', type='p')
 
 #MA
 theta = 2
@@ -68,7 +68,7 @@ for (i in 1:5000){
   }
 }
 
-plot(Z,main="Maximum values of a MA(1) sequence", ylab='X', type='p')
+plot(Z,main="Extreme values of a MA(1) distribution", ylab='X', type='p')
 
 #Dependent distributions
 
@@ -92,7 +92,7 @@ for (i in 1:n){
   }
 }
 
-plot(X,main="Maximum values of a Moving Maxima sequence", ylab='X', type='p')
+plot(X,main="Extremes values of a Moving Maxima distribution", ylab='X', type='p')
 
 #ARCH
 
@@ -116,7 +116,7 @@ for (i in 1:n){
   }
 }
 
-plot(X, main="Maximum values of an ARCH sequence", ylab='X', type='p')
+plot(X, main="Extremes values of an ARCH distribution", ylab='X', type='p')
 
 #sARCH
 n = 5000
@@ -139,7 +139,7 @@ for (i in 1:n){
   }
 }
 
-plot(X, main="Maximum values of a sARCH sequence", ylab='X', type='p')
+plot(X, main="Extreme values of a sARCH distribution", ylab='X', type='p')
 
 #AR-C
 n = 5000
@@ -162,4 +162,4 @@ for (i in 1:n){
   }
 }
 
-plot(X,main="Maximum values of an AR-C sequence", ylab='X', type='p')
+plot(X,main="Extreme values of an AR-C distribution", ylab='X', type='p')
