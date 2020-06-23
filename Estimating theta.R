@@ -65,13 +65,13 @@ for (d in 1:q){
 
 
 par(mfrow=c(2,2))
-hist(theta1, las=1, breaks=20, xlab=expression(theta[n]^N), main=expression(paste("Moving Maxima distribution with \n disjoint blocks")))
+hist(theta1, las=1, breaks=20, xlab=expression(theta[n]^N), main=expression(paste("U(0,1) sequence with \n disjoint blocks")))
 abline(v=est, lwd=3)
-hist(theta1s, las=1, breaks=20, xlab=expression(theta[n]^N), main=expression(paste("Moving Maxima distribution with \n sliding blocks")))
+hist(theta1s, las=1, breaks=20, xlab=expression(theta[n]^N), main=expression(paste("U(0,1) sequence with \n sliding blocks")))
 abline(v=est, lwd=3)
-hist(theta2, las=1, breaks=20, xlab=expression(theta[n]^B), main=expression(paste("Moving Maxima distribution with \n disjoint blocks")))
+hist(theta2, las=1, breaks=20, xlab=expression(theta[n]^B), main=expression(paste("U(0,1) sequence with \n disjoint blocks")))
 abline(v=est, lwd=3)
-hist(theta2s, las=1, breaks=20, xlab=expression(theta[n]^B), main=expression(paste("Moving Maxima distribution with \n sliding blocks")))
+hist(theta2s, las=1, breaks=20, xlab=expression(theta[n]^B), main=expression(paste("U(0,1) sequence with \n sliding blocks")))
 abline(v=est, lwd=3)
 mean(theta1)
 mean(theta1s)
